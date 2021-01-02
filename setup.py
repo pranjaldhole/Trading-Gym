@@ -11,9 +11,7 @@ setup(
     author_email='tgym@prediction-machines.com',
     url='https://github.com/prediction-machines/tgym',
     packages=find_packages(),
-    install_requires=[
-        'matplotlib==2.0.2'
-    ],
+    install_requires=['matplotlib'],
     license="MIT license",
     zip_safe=False,
     keywords='tgym'
